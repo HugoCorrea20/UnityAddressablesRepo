@@ -43,6 +43,7 @@ MonoBehaviour:
   m_GroupAssets:
   - {fileID: 11400000, guid: d3aaed690a7512a439e78baa6d221c05, type: 2}
   - {fileID: 11400000, guid: 78343c6caf9300c46ab6b655ca3f8ac6, type: 2}
+  - {fileID: 11400000, guid: 3f5772536ed5b6442ae0a03c1c0f8705, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -64,6 +65,20 @@ MonoBehaviour:
         m_Value: ServerData/[BuildTarget]
       - m_Id: 8943a75409cc80e46a4021d98c318145
         m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+    - m_InheritedParent: 
+      m_Id: b364b8d1bbdd4154f928724bf5681f7e
+      m_ProfileName: removeprofile
+      m_Values:
+      - m_Id: 41980bfacc4c56f4191731cb5f07128f
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 412ad4c76c641994c83a25dacd059223
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: 55763c1edc87a6549be63ba128138ff5
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: a57ca0426d9afe0479de5ba7472d31d5
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: 8943a75409cc80e46a4021d98c318145
+        m_Value: https://raw.githubusercontent.com/HugoCorrea20/UnityAddressablesRepo/main/texte.txt
     m_ProfileEntryNames:
     - m_Id: 41980bfacc4c56f4191731cb5f07128f
       m_Name: BuildTarget
@@ -97,7 +112,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1be876557cf4f17469392d84d176ce4d, type: 2}
   - {fileID: 11400000, guid: 55f6c03ea6fef1d42af40920810823d0, type: 2}
   - {fileID: 11400000, guid: ad306d997dc631049a1bcf92b5017875, type: 2}
-  m_ActiveProfileId: ce914c07db4c377419b05898a49459e6
+  m_ActiveProfileId: b364b8d1bbdd4154f928724bf5681f7e
   m_HostingServicesManager:
     m_HostingServiceInfos: []
     m_Settings: {fileID: 11400000}
