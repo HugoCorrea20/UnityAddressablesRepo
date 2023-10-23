@@ -10,7 +10,7 @@ public class ResourceManager : MonoBehaviour
     [SerializeField] Transform spawnPoint;
     AsyncOperationHandle<GameObject> handle;
     List<GameObject> prefabs = new List<GameObject>();
-    // Start is called before the first frame update
+   
     void Start()
     {
         
@@ -34,9 +34,7 @@ public class ResourceManager : MonoBehaviour
     }
     private void LoadAsset()
     {
-        handle =
-       assetReference.InstantiateAsync(spawnPoint.position,
-       spawnPoint.rotation);
+        handle =assetReference.InstantiateAsync(spawnPoint.position,spawnPoint.rotation);
         handle.Completed += handle =>
         {
             prefabs.Add(handle.Result);
