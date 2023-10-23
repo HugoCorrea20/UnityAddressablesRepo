@@ -78,7 +78,7 @@ MonoBehaviour:
       - m_Id: a57ca0426d9afe0479de5ba7472d31d5
         m_Value: ServerData/[BuildTarget]
       - m_Id: 8943a75409cc80e46a4021d98c318145
-        m_Value: https://raw.githubusercontent.com/HugoCorrea20/UnityAddressablesRepo/main/texte.txt
+        m_Value: https://raw.githubusercontent.com/HugoCorrea20/UnityAddressablesRepo/main/
     m_ProfileEntryNames:
     - m_Id: 41980bfacc4c56f4191731cb5f07128f
       m_Name: BuildTarget
